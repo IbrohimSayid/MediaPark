@@ -4,16 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link FavIcon -->
     <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+    <!-- Link Bootstrap-5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Link Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Link style.css -->
     <link rel="stylesheet" href="scss/style.css">
+    <!-- Title -->
     <title>MediaPark</title>
 </head>
 
 <body>
+    <!-- Header top part-->
     <header id="header-top">
+        <!-- Container -->
         <div class="container">
             <div class="navbar-container">
                 <div class="navbar-container-top">
@@ -54,7 +67,8 @@
             </div>
         </div>
     </header>
-    <div id="header-middle">
+    <!-- Middle header container part -->
+    <header id="header-middle">
         <div class="container">
             <div class="header-middle-container">
                 <div class="header-middle-container-logo">
@@ -93,7 +107,971 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+    <!-- header bottom container part -->
+    <header id="header-bottom">
+        <div class="container">
+            <div class="header-bottom-container">
+                <div class="header-bottom">
+                    <ul>
+                        <li>
+                            <a href="#" class="sale">Акции</a>
+                        </li>
+                        <li>
+                            <a href="#">Смартфоны</a>
+                        </li>
+                        <li>
+                            <a href="#">Холодильники</a>
+                        </li>
+                        <li>
+                            <a href="#">Apple</a>
+                        </li>
+                        <li>
+                            <a href="#">Телевизоры</a>
+                        </li>
+                        <li>
+                            <a href="#">Ноутбуки</a>
+                        </li>
+                        <li>
+                            <a href="#">Стиральные машины</a>
+                        </li>
+                        <li>
+                            <a href="#">Кофемашины</a>
+                        </li>
+                        <li>
+                            <a href="#">Варочные панели</a>
+                        </li>
+                        <li>
+                            <a href="#">Смарт-часы</a>
+                        </li>
+                        <li>
+                            <a href="#">Кондиционеры</a>
+                        </li>
+                        <li>
+                            <a href="#">Утюги</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Slider with Bootstrap-5 and Js -->
+    <section id="slider-container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/0168cd48-53b7-459b-8a67-af3c5fc7f212_PolarisUZ.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/14685108-487f-4840-95ea-75a6866ec988_WatchUltraKiril.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2b9dc9cb-161b-4557-8a3c-1070533586ad_WatchUZ.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/f538e811-2a72-429a-b422-61e2b5767aa4_15RU.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/e9608efb-5abe-48fc-9441-95867d615090_IphoneRU.jpg" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- part of popular categories -->
+    <section id="kategory-container">
+        <div class="container">
+            <div class="kategory-container-title">
+                <h2>Популярные категории</h2>
+            </div>
+            <div class="kategory-main-container">
+                <div class="kategory-box">
+                    <img src="img/nootebok.png">
+                    <h4>Все нотебуки</h4>
+                </div>
+                <div class="kategory-box">
+                    <img src="img/tv.png">
+                    <h4>Все телевизоры</h4>
+                </div>
+                <div class="kategory-box">
+                    <img src="img/cleaner.png">
+                    <h4>Пылесос</h4>
+                </div>
+                <div class="kategory-box">
+                    <img src="img/machine.png">
+                    <h4>Стиральная машина</h4>
+                </div>
+                <div class="kategory-box">
+                    <img src="img/fridge.png">
+                    <h4>холодильник</h4>
+                </div>
+                <div class="kategory-box">
+                    <img src="img/phone.png">
+                    <h4>Все телефоны</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- News section -->
+    <section id="new-container">
+        <div class="container">
+            <div class="news-container">
+                <div class="news-container-title">
+                    <h2>Новинки</h2>
+                </div>
+                <div class="news-main-container">
+                    <div class="news-box">
+                        <img src="img/product-img-1.webp" class="box-img">
+                        <h2 class="price">19 850 000 сум</h2>
+                        <p class="box-sale">2 287 749 сум/месяць</p>
+                        <p class="comment">Ноутбук Apple MackBook Air M2 2023 8GB/256GB</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="news-box">
+                        <img src="img/product-img-2.webp" class="box-img">
+                        <h2 class="price">1 936 000 сум</h2>
+                        <p class="box-sale">222 640 сум/месяць</p>
+                        <p class="comment">Смартфон Xiamo Redmi 124/128GB Black</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="news-box">
+                        <img src="img/product-img-3.webp" class="box-img">
+                        <h2 class="price">8 980 000 сум</h2>
+                        <p class="box-sale">1 032 699 сум/месяць</p>
+                        <p class="comment">Кондиционер LG D12TT NSJ+UA3</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="news-box">
+                        <img src="img/product-img-4.webp" class="box-img">
+                        <h2 class="price">4 221 000 сум</h2>
+                        <p class="box-sale">485 415 сум/месяць</p>
+                        <p class="comment">Монитор Asus TUF GAMING VG249Q1R/D</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="news-box">
+                        <img src="img/product-img-5.webp" class="box-img">
+                        <h2 class="price">8 355 000 сум</h2>
+                        <p class="box-sale">960 825 сум/месяць</p>
+                        <p class="comment">Ноутбук HP ProBook 455 15.6 inch G9 R5-5625U...</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="news-box">
+                        <img src="img/product-img-6.webp" class="box-img">
+                        <h2 class="price">12 999 000 сум</h2>
+                        <p class="box-sale">1 485 500 сум/месяць</p>
+                        <p class="comment">Ноутбук HP VICTUS 15-FA1093 I5-...</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="beast-seller">
+        <div class="container">
+            <div class="best-sellercontainer">
+                <div class="best-seller-container-title">
+                    <h2>Хит продаж</h2>
+                </div>
+                <div class="best-seller-main-container">
+                    <div class="best-container-box">
+                        <img src="img/image23.jpg" class="box-img">
+                        <h2 class="price">688 000 сум</h2>
+                        <p class="box-sale">194 120 сум/месяць</p>
+                        <p class="comment">Соковыжималка Avalon SJ 2021A</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <a href="#">В корзину</a>
+                    </div>
+                    <div class="best-container-box">
+                        <img src="img/image24.jpg" class="box-img">
+                        <h2 class="price">486 000 сум</h2>
+                        <p class="box-sale">55 890 сум/месяць</p>
+                        <p class="comment">Миксер Artel ART HM-833</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <a href="#">В корзину</a>
+                    </div>
+                    <div class="best-container-box">
+                        <img src="img/image35.jpg" class="box-img">
+                        <h2 class="price">282 000 сум</h2>
+                        <p class="box-sale">32 429 сум/месяць</p>
+                        <p class="comment">Сковорода Kukmara cgg280a blue</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <a href="#">В корзину</a>
+                    </div>
+                    <div class="best-container-box">
+                        <img src="img/image32.jpg" class="box-img">
+                        <h2 class="price">312 000 сум</h2>
+                        <p class="box-sale">35 879 сум/месяць</p>
+                        <p class="comment">Сковорода Kukmara cgg280a blue</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <a href="#">В корзину</a>
+                    </div>
+                    <div class="best-container-box">
+                        <img src="img/image65.jpg" class="box-img">
+                        <h2 class="price">2 381 000 сум</h2>
+                        <p class="box-sale">273 814 сум/месяць</p>
+                        <p class="comment">Кулер для воды Vital T-10SX ECO</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <a href="#">В корзину</a>
+                    </div>
+                    <div class="best-container-box">
+                        <img src="img/image44.jpg" class="box-img">
+                        <h2 class="price">2 489 000 сум</h2>
+                        <p class="box-sale">286 234 сум/месяць</p>
+                        <p class="comment">Кулер для воды Artel ART-1638S</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <a href="#">В корзину</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="second-slider-container">
+        <div id="carouselExampleControls" class="carousel slide second-carusel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/image39.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/image28.jpg" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="buy-container">
+        <div class="container">
+            <div class="buy-container">
+                <div class="buy-container-title">
+                    <h2>Сейчас покупают</h2>
+                </div>
+                <div class="buy-container-kategory">
+                    <a href="#">Все</a>
+                    <a href="#">Смартфоны</a>
+                    <a href="#">Для кухни</a>
+                    <a href="#">Красота</a>
+                    <a href="#">Телевизоры</a>
+                </div>
+                <div class="buy-main-container">
+                    <div class="buy-container-box">
+                        <img src="img/image16.jpg" class="box-img">
+                        <h2 class="price">6 714 000 сум</h2>
+                        <p class="box-sale">617 109 сум/месяць</p>
+                        <p class="comment">Смартфон Samsung Galaxy A54 8/256 GB Lime</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="buy-container-box">
+                        <img src="img/image8.jpg" class="box-img">
+                        <h2 class="price">3 201 000 сум</h2>
+                        <p class="box-sale">368 115 сум/месяць</p>
+                        <p class="comment">Газовая варочная панел Goodwel GWP-6403RI</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="buy-container-box">
+                        <img src="img/image51.jpg" class="box-img">
+                        <h2 class="price">7 189 000 сум</h2>
+                        <p class="box-sale">826 735 сум/месяць</p>
+                        <p class="comment">Телевизор Samsung UE43AU7500</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="buy-container-box">
+                        <img src="img/image53.jpg" class="box-img">
+                        <h2 class="price">10 399 000 сум</h2>
+                        <p class="box-sale">1 195 884 сум/месяць</p>
+                        <p class="comment">Телевизор LG 55UQ76003LD</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="buy-container-box">
+                        <img src="img//image14.jpg" class="box-img">
+                        <h2 class="price">12 384 000 сум</h2>
+                        <p class="box-sale">1 424 160 сум/месяць</p>
+                        <p class="comment">Смартфон Apple iPhone 14 128 GB Starlight</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="buy-container-box">
+                        <img src="img/image59.jpg" class="box-img">
+                        <h2 class="price">2 254 000 сум</h2>
+                        <p class="box-sale">259 209 сум/месяць</p>
+                        <p class="comment">Газовая варочная панел Artel Moderno I64-0720</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="nootebooks">
+        <div class="container">
+            <div class="nootebooks-container">
+                <div class="nootebooks-title">
+                    <h2>Ноутбуки</h2>
+                </div>
+                <div class="nootebooks-main-container">
+                    <div class="nootebooks-box">
+                        <img src="img/image66.jpg">
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <p class="comment">Ноутбук Asus X1500E I7 1165G7/8GB/512GB...</p>
+                        <h2 class="price">8 050 000 сум</h2>
+                        <div class="credit-box">
+                            <div class="credit-1">
+                                <p>925 750 <br> сум </p>
+                            </div>
+                            <div class="credit-2">
+                                <p>12 мес</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nootebooks-box">
+                        <img src="img/image22.jpg">
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <p class="comment">Ноутбук Lenovo IP3 15ITL6 I3-1115G4/8/SSD...</p>
+                        <h2 class="price">5 490 000 сум</h2>
+                        <div class="credit-box">
+                            <div class="credit-1">
+                                <p>631 924 <br> сум </p>
+                            </div>
+                            <div class="credit-2">
+                                <p>12 мес</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nootebooks-box">
+                        <img src="img/image10.jpg">
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <p class="comment">Ноутбук Lenovo IP L3 15ITL6 I5</p>
+                        <h2 class="price">7 454 000 сум</h2>
+                        <div class="credit-box">
+                            <div class="credit-1">
+                                <p>857 210 <br> сум </p>
+                            </div>
+                            <div class="credit-2">
+                                <p>12 мес</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nootebooks-box">
+                        <img src="img/image64.jpg">
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <p class="comment">Ноутбук Lenovo Ideapad 3 15ALC6 AMD Ryzen 7...</p>
+                        <h2 class="price">6 921 000 сум</h2>
+                        <div class="credit-box">
+                            <div class="credit-1">
+                                <p>795 915 <br> сум </p>
+                            </div>
+                            <div class="credit-2">
+                                <p>12 мес</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nootebooks-box">
+                        <img src="img/image2.jpg">
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <p class="comment">Ноутбук HP 17-CN1003CA i5-1155G7/8GB/SSD/512GB</p>
+                        <h2 class="price">7 885 000 сум</h2>
+                        <div class="credit-box">
+                            <div class="credit-1">
+                                <p>906 775 <br> сум </p>
+                            </div>
+                            <div class="credit-2">
+                                <p>12 мес</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nootebooks-box">
+                        <img src="img/image58.jpg">
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <p class="comment">Ноутбук Lenovo IdeaPad Gaming</p>
+                        <h2 class="price">7 885 000 сум</h2>
+                        <div class="credit-box">
+                            <div class="credit-1">
+                                <p>906 775 <br> сум </p>
+                            </div>
+                            <div class="credit-2">
+                                <p>12 мес</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="robots-contntainer">
+        <div class="container">
+            <div class="robot-container">
+                <div class="robot-container-title">
+                    <h2>Они работают — вы отдыхаете</h2>
+                </div>
+                <div class="robot-section-main-container">
+                    <div class="robot-section-box">
+                        <img src="img/image31.jpg" class="box-img">
+                        <h2 class="price">6 544 000 сум</h2>
+                        <p class="box-sale">752 560 сум/месяць</p>
+                        <p class="comment">Стиральные машина SAMSUNG...</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="robot-section-box">
+                        <img src="img/image41.jpg" class="box-img">
+                        <h2 class="price">6 406 000 сум</h2>
+                        <p class="box-sale">736 690 сум/месяць</p>
+                        <p class="comment">Робот-пылесос Polaris PVCR3900</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="robot-section-box">
+                        <img src="img/image56.jpg" class="box-img">
+                        <h2 class="price">8 614 000 сум</h2>
+                        <p class="box-sale">990 610 сум/месяць</p>
+                        <p class="comment">Кофемашина Philips EP2030/10</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="robot-section-box">
+                        <img src="img/image46.jpg" class="box-img">
+                        <h2 class="price">6 013 000 сум</h2>
+                        <p class="box-sale">691 494 сум/месяць</p>
+                        <p class="comment">Кофемашина DeLonghi ECAM 22.110.B</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="robot-section-box">
+                        <img src="img/image77.jpg" class="box-img">
+                        <h2 class="price">5 520 000 сум</h2>
+                        <p class="box-sale">634 799 сум/месяць</p>
+                        <p class="comment">Стиральные машина LG F2J3NNSOW</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="robot-section-box">
+                        <img src="img/image.jpg" class="box-img">
+                        <h2 class="price">8 799 000 сум</h2>
+                        <p class="box-sale">1 011 884 сум/месяць</p>
+                        <p class="comment">Холодильник Samsung RB37P5300WW/W3</p>
+                        <div class="evaluation">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <p>24</p>
+                        </div>
+                        <div class="box-icon-home">
+                            <i class="fa-solid fa-cart-shopping adding"></i>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="famous-section">
+        <div class="container">
+            <div class="famous-container">
+                <div class="famous-container-title">
+                    <h2>Популярные бренды</h2>
+                </div>
+                <div class="famous-main-contanatiner-box">
+                    <div class="famous-container-box">
+                        <img src="img/image55.jpg">
+                    </div>
+                    <div class="famous-container-box">
+                        <img src="img/image21.jpg">
+                    </div>
+                    <div class="famous-container-box">
+                        <img src="img/image61.jpg">
+                    </div>
+                    <div class="famous-container-box">
+                        <img src="img/image26.jpg">
+                    </div>
+                    <div class="famous-container-box">
+                        <img src="img/image69.jpg">
+                    </div>
+                    <div class="famous-container-box">
+                        <img src="img/image72.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reason">
+        <div class="container">
+            <div class="reason-container">
+                <div class="reason-container-title">
+                    <h2>Почему именно Mediapark?</h2>
+                </div>
+                <div class="reason-main-container">
+                    <div class="reason-box">
+                        <i class="fa-solid fa-truck"></i>
+                        <h3>Удобная доставка</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, iusto.</p>
+                    </div>
+                    <div class="reason-box">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <h3>Любой способ оплаты</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nulla a nesciunt quod
+                            eius?</p>
+                    </div>
+                    <div class="reason-box">
+                        <i class="fa-solid fa-wrench"></i>
+                        <h3>Гарантия и надежный сервис</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nam minima nisi nostrum
+                            sapiente!</p>
+                    </div>
+                    <div class="reason-box">
+                        <i class="fa-solid fa-money-bill"></i>
+                        <h3>Доступные и низкие цены</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, odio velit. Quisquam,
+                            soluta cumque.</p>
+                    </div>
+                    <div class="reason-box">
+                        <i class="fa-solid fa-city"></i>
+                        <h3>Магазины по всему Узбекистану</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="reason-box">
+                        <i class="fa-solid fa-coins"></i>
+                        <h3>Грандиозные акции и скидки</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo enim mollitia unde!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="social-media">
+        <div class="container">
+            <div class="social-media-container">
+                <div class="social-media-container-left">
+                    <h1>Твой магазин в Твоём телефоне</h1>
+                    <p>Найдите смартфоны, планшеты и все виды <br> актуальной электроники в мобильном <br> приложении
+                        MEDIAPARK.
+                    </p>
+                    <div class="store-home">
+                        <div class="store">
+                            <a href="#"><img src="img/app-store.png"></a>
+                        </div>
+                        <div class="store">
+                            <a href="#"><img src="img/google-play.png"></a>
+                        </div>
+                        <div class="store">
+                            <a href="#"><img src="img/app-galery.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-media-container-right">
+                    <img src="img/image5.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-container-main-box">
+                    <div class="footer-container-box">
+                        <img src="img/footer-icon.png" class="footer-icon">
+                        <h5>Возникли вопросы? Готовы помочь:</h5>
+                        <a href="#">+998 71 203 33 33</a>
+                        <h5>График работы:</h5>
+                        <h4>Пн-Вс : 09:00 - 21:00</h4>
+                    </div>
+                    <div class="footer-container-box">
+                        <div class="footer-payment-title">
+                            <h5>Способы оплаты</h5>
+                        </div>
+                        <div class="footer-paymnet-header-box">
+                            <div class="footer-payment-main-box">
+                                <div class="footer-payment-box">
+                                    <img src="img/img-humo.png" class="img-1">
+                                    <img src="img/img-click.png" class="img-2">
+                                    <img src="img/img-visa.png" class="img-3">
+                                </div>
+                                <div class="footer-payment-box">
+                                    <img src="img/img-uzcard.png" class="img-4">
+                                    <img src="img/img-payme.png" class="img-5">
+                                    <img src="img/img-master.png" class="img-6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-container-box">
+                        <div class="footer-main-info-box">
+                            <div class="footer-info-box">
+                                <h5>Информация</h5>
+                                <ul>
+                                    <li>
+                                        <a href="#">О нас</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Гарантия</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Акции</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Адреса магазинов</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-info-box">
+                                <h5>Услуги</h5>
+                                <ul>
+                                    <li>
+                                        <a href="#">Услуги</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Способы оплаты</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Всё о рассрочке</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Партнёрство</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Возврат товара</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-info-box">
+                                <h5>Для покупателей</h5>
+                                <ul>
+                                    <li>
+                                        <a href="#">Доставка</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Свяжитесь с нами!</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Сервисный центр</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Оставить отзыв</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Вакансии</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <section id="last">
+        <div class="container">
+            <div class="last-container">
+                <div class="last-container-left">
+                    <h6>© Все права защищены.</h6>
+                </div>
+                <div class="last-container-right">
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html
